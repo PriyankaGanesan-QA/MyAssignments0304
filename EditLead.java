@@ -12,7 +12,7 @@ public class EditLead {
 		// TODO Auto-generated method stub
 		
 		ChromeOptions options = new ChromeOptions();
-		options.addArguments("--remotr-allow-origins=*");
+		options.addArguments("--remote-allow-origins=*");
 		
 		ChromeDriver driver = new ChromeDriver(options);
 		
